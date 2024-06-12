@@ -61,6 +61,7 @@ export default function Clock() {
       <div>
         <h2>{progQuetos?.content}</h2>
         <img src={refresh} onClick={Refresh} alt="" />
+        <h2>{Realtime?.timezone}</h2>
       </div>
     </main>
   );
